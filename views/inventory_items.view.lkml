@@ -33,6 +33,7 @@ view: inventory_items {
     sql: ${TABLE}."PRODUCT_BRAND" ;;
   }
 
+
   dimension: product_category {
     type: string
     sql: ${TABLE}."PRODUCT_CATEGORY" ;;
